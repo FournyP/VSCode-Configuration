@@ -1,0 +1,145 @@
+{
+  "editor.suggestSelection": "first",
+  "editor.renderWhitespace": "trailing",
+  "editor.linkedEditing": true,
+  "editor.occurrencesHighlight": "off",
+  "editor.suggest.insertMode": "replace",
+  "explorer.autoReveal": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.editor.enablePreview": false,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "material-icon-theme.hidesExplorerArrows": true,
+  "editor.fontFamily": "'SF Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 13,
+  "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": true,
+  "intelephense.diagnostics.embeddedLanguages": false,
+  "intelephense.phpdoc.useFullyQualifiedNames": true,
+  "php.suggest.basic": false,
+  "editor.minimap.enabled": false,
+  "workbench.tree.indent": 15,
+  "workbench.startupEditor": "newUntitledFile",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.associations": {
+    "*.html.twig": "twig"
+  },
+  "emmet.includeLanguages": {
+    "twig": "html"
+  },
+  "zoombar.defaultZoom": 100,
+  "cSpell.userWords": [
+    "Acteur",
+    "childrens",
+    "csrf",
+    "datas",
+    "docusign",
+    "Factures",
+    "Focustribes",
+    "formated",
+    "Hasher",
+    "Herited",
+    "imap",
+    "insta",
+    "inversed",
+    "mariadb",
+    "Moralis",
+    "Nillable",
+    "Parallelizable",
+    "Pokemons",
+    "postgresql",
+    "Registor",
+    "Retryable",
+    "Serilog",
+    "Sider",
+    "Speciality",
+    "sqlite",
+    "Supprimer",
+    "symfony",
+    "Tarif",
+    "Tarifs",
+    "Visite"
+  ],
+  "redhat.telemetry.enabled": true,
+  "workbench.enableExperiments": false,
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "markdown": true
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.preferredLightColorTheme": "GitHub Light",
+  //"workbench.statusBar.visible": false,
+  "window.autoDetectColorScheme": true,
+  "explorer.compactFolders": false,
+  "editor.bracketPairColorization.enabled": true,
+  "eslint.format.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue"
+  ],
+  "workbench.colorTheme": "GitHub Dark",
+  "workbench.preferredHighContrastLightColorTheme": "GitHub Light High Contrast",
+  "workbench.preferredDarkColorTheme": "GitHub Dark",
+  "workbench.preferredHighContrastColorTheme": "GitHub Dark High Contrast",
+  "security.workspace.trust.untrustedFiles": "open",
+  "solidity.telemetry": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.activityBar.location": "bottom",
+  "workbench.panel.defaultLocation": "right",
+  "go.testTimeout": "1000s",
+  "go.disableConcurrentTests": true,
+  "go.toolsManagement.autoUpdate": true,
+  "[go.mod]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "svelte.enable-ts-plugin": true,
+  "markdown-pdf.mermaidServer": "https://unpkg.com/mermaid@9.4.3/dist/mermaid.min.js",
+  "workbench.iconTheme": "material-icon-theme",
+  "git.openRepositoryInParentFolders": "always",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "editor.accessibilitySupport": "off",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "dotnetAcquisitionExtension.enableTelemetry": false,
+  "csharp.debug.logging.moduleLoad": false,
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "window.zoomLevel": 0,
+  "npm.packageManager": "yarn",
+  "typescript.preferences.includePackageJsonAutoImports": "off",
+  "npm.autoDetect": "off",
+  "github.copilot.chat.inlineChatCompletionTrigger.enabled": true,
+  "diffEditor.hideUnchangedRegions.enabled": true
+}
