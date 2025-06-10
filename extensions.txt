@@ -1,6 +1,8 @@
+bierner.markdown-mermaid
 bmewburn.vscode-intelephense-client
 christian-kohler.path-intellisense
 dbaeumer.vscode-eslint
+docker.docker
 esbenp.prettier-vscode
 github.copilot
 github.copilot-chat
@@ -8,7 +10,7 @@ github.github-vscode-theme
 golang.go
 marp-team.marp-vscode
 mehedidracula.php-constructor
-ms-azuretools.vscode-docker
+ms-azuretools.vscode-containers
 ms-dotnettools.csdevkit
 ms-dotnettools.csharp
 ms-dotnettools.vscode-dotnet-runtime
@@ -17,6 +19,7 @@ pkief.material-icon-theme
 pnp.polacode
 redhat.fabric8-analytics
 redhat.vscode-xml
+simonsiefke.svg-preview
 streetsidesoftware.code-spell-checker
 svelte.svelte-vscode
 wraith13.zoombar-vscode
