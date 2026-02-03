@@ -1,5 +1,13 @@
 {
+  "scm.defaultViewMode": "tree",
+  "search.defaultViewMode": "tree",
   "editor.suggestSelection": "first",
+  "editor.mouseWheelScrollSensitivity": 0.5,
+  "editor.fastScrollSensitivity": 3,
+  "workbench.list.mouseWheelScrollSensitivity": 0.5,
+  "workbench.list.fastScrollSensitivity": 3,
+  "terminal.integrated.mouseWheelScrollSensitivity": 0.5,
+  "terminal.integrated.fastScrollSensitivity": 3,
   "editor.renderWhitespace": "trailing",
   "editor.linkedEditing": true,
   "editor.occurrencesHighlight": "off",
@@ -74,8 +82,8 @@
   "editor.inlineSuggest.enabled": true,
   "github.copilot.enable": {
     "*": true,
-    "plaintext": true,
-    "markdown": false,
+    "plaintext": false,
+    "markdown": true,
     "scminput": false
   },
   "[json]": {
@@ -118,7 +126,7 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "workbench.activityBar.location": "bottom",
   "workbench.panel.defaultLocation": "right",
-  "go.testTimeout": "1000s",
+  "go.testTimeout": "60s",
   "go.disableConcurrentTests": true,
   "go.toolsManagement.autoUpdate": true,
   "[go.mod]": {
@@ -128,9 +136,8 @@
     "editor.defaultFormatter": "golang.go"
   },
   "[dockerfile]": {
-    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    "editor.defaultFormatter": "docker.docker"
   },
-  "svelte.enable-ts-plugin": true,
   "markdown-pdf.mermaidServer": "https://unpkg.com/mermaid@9.4.3/dist/mermaid.min.js",
   "markdown.marp.html": "all",
   "git.openRepositoryInParentFolders": "always",
@@ -151,7 +158,123 @@
   "explorer.compactFolders": false,
   "material-icon-theme.hidesExplorerArrows": true,
   "github.copilot.chat.codesearch.enabled": true,
-  "diffEditor.hideUnchangedRegions.enabled": true,
   "github.copilot.nextEditSuggestions.enabled": true,
-  "github.copilot.nextEditSuggestions.fixes": true
+  "github.copilot.nextEditSuggestions.fixes": true,
+  "[sql]": {
+    "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+  },
+  "git.blame.editorDecoration.enabled": false,
+  "git.blame.statusBarItem.enabled": false,
+  "chat.mcp.gallery.enabled": true,
+  "hediet.vscode-drawio.resizeImages": null,
+  "hediet.vscode-drawio.theme": "kennedy",
+  "hediet.vscode-drawio.appearance": "automatic",
+  "chat.mcp.serverSampling": {
+    "Global in Code: railway-mcp-server": {
+      "allowedModels": [
+        "copilot/claude-sonnet-4.5",
+        "copilot/auto",
+        "copilot/claude-haiku-4.5",
+        "copilot/claude-sonnet-4",
+        "copilot/gemini-2.5-pro",
+        "copilot/gemini-3-pro-preview",
+        "copilot/gpt-4.1",
+        "copilot/gpt-4o",
+        "copilot/gpt-5",
+        "copilot/gpt-5-mini",
+        "copilot/gpt-5-codex",
+        "copilot/gpt-5.1",
+        "copilot/gpt-5.1-codex",
+        "copilot/gpt-5.1-codex-mini",
+        "copilot/grok-code-fast-1",
+        "copilot/oswe-vscode-secondary"
+      ]
+    },
+    "Global in Code: linear-6022": {
+      "allowedModels": [
+        "copilot/claude-sonnet-4.5",
+        "copilot/auto",
+        "copilot/claude-haiku-4.5",
+        "copilot/claude-opus-4.5",
+        "copilot/claude-sonnet-4",
+        "copilot/gemini-2.5-pro",
+        "copilot/gemini-3-flash-preview",
+        "copilot/gemini-3-pro-preview",
+        "copilot/gpt-4.1",
+        "copilot/gpt-4o",
+        "copilot/gpt-5",
+        "copilot/gpt-5-mini",
+        "copilot/gpt-5-codex",
+        "copilot/gpt-5.1",
+        "copilot/gpt-5.1-codex",
+        "copilot/gpt-5.1-codex-max",
+        "copilot/gpt-5.1-codex-mini",
+        "copilot/gpt-5.2",
+        "copilot/gpt-5.2-codex",
+        "copilot/grok-code-fast-1",
+        "copilot/oswe-vscode-prime"
+      ]
+    },
+    "Global in Code: linear-personal": {
+      "allowedModels": [
+        "copilot/claude-sonnet-4.5",
+        "copilot/auto",
+        "copilot/claude-haiku-4.5",
+        "copilot/claude-opus-4.5",
+        "copilot/claude-sonnet-4",
+        "copilot/gemini-2.5-pro",
+        "copilot/gemini-3-flash-preview",
+        "copilot/gemini-3-pro-preview",
+        "copilot/gpt-4.1",
+        "copilot/gpt-4o",
+        "copilot/gpt-5",
+        "copilot/gpt-5-mini",
+        "copilot/gpt-5-codex",
+        "copilot/gpt-5.1",
+        "copilot/gpt-5.1-codex",
+        "copilot/gpt-5.1-codex-max",
+        "copilot/gpt-5.1-codex-mini",
+        "copilot/gpt-5.2",
+        "copilot/gpt-5.2-codex",
+        "copilot/grok-code-fast-1",
+        "copilot/oswe-vscode-prime"
+      ]
+    },
+    "Global in Code: github/github-mcp-server": {
+      "allowedModels": [
+        "copilot/claude-sonnet-4.5",
+        "copilot/auto",
+        "copilot/claude-haiku-4.5",
+        "copilot/claude-opus-4.5",
+        "copilot/claude-sonnet-4",
+        "copilot/gemini-2.5-pro",
+        "copilot/gemini-3-flash-preview",
+        "copilot/gemini-3-pro-preview",
+        "copilot/gpt-4.1",
+        "copilot/gpt-4o",
+        "copilot/gpt-5",
+        "copilot/gpt-5-mini",
+        "copilot/gpt-5-codex",
+        "copilot/gpt-5.1",
+        "copilot/gpt-5.1-codex",
+        "copilot/gpt-5.1-codex-max",
+        "copilot/gpt-5.1-codex-mini",
+        "copilot/gpt-5.2",
+        "copilot/gpt-5.2-codex",
+        "copilot/grok-code-fast-1",
+        "copilot/oswe-vscode-prime"
+      ]
+    }
+  },
+  "chat.agent.maxRequests": 100,
+  "chat.tools.terminal.autoApprove": {
+    "go": true,
+    "gofmt": true
+  },
+  "chat.editing.confirmEditRequestRemoval": false,
+  "window.confirmBeforeClose": "keyboardOnly",
+  "accessibility.signals.chatResponseReceived": {
+    "sound": "on"
+  },
+  "accessibility.voice.speechLanguage": "fr-FR"
 }
