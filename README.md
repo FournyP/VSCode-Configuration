@@ -42,6 +42,13 @@ This repository contains my personal Visual Studio Code configuration files.
 3. Click on the file name above the editor > Click `Reveal in Finder` (Mac) or `Reveal in Explorer` (Windows).
 4. Copy the snippet files under `snippets` to this repository.
 
+### Exporting prompts
+
+1. Open VS Code.
+2. Go to `Code` > `Chat` > `Settings` > `Prompt file` > Open any prompt file.
+3. Click on the file name above the editor > Click `Reveal in Finder` (Mac) or `Reveal in Explorer` (Windows).
+4. Copy the prompt files under `prompts` to this repository.
+
 ## Usage
 
 To replicate this setup on a new machine:
