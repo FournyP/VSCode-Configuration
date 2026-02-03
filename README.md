@@ -35,6 +35,13 @@ This repository contains my personal Visual Studio Code configuration files.
 3. Click the `{}` icon in the upper right to open `keybindings.json`.
 4. Copy the contents and save them as `keybindings.json` in this repository.
 
+### Exporting Snippets
+
+1. Open VS Code.
+2. Go to `Code` > `Profiles` > `Snippets` > Open any snippet file.
+3. Click on the file name above the editor > Click `Reveal in Finder` (Mac) or `Reveal in Explorer` (Windows).
+4. Copy the snippet files under `snippets` to this repository.
+
 ## Usage
 
 To replicate this setup on a new machine:

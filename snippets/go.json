@@ -1,0 +1,48 @@
+{
+	"Go Interface File": {
+		"prefix": "gointerfacefile",
+		"description": "Create a Go interface file in interfaces/",
+		"body": [
+			"package ${TM_DIRECTORY/.+[\\/]([^\\/]+)$/$1/}",
+			"",
+			"type ${TM_FILENAME_BASE/(?:^|[_-])(.)/${1:/upcase}/g} interface {",
+			"\t$0",
+			"}"
+		]
+	},
+	"Go Dig Configuration": {
+		"prefix": "godigconfig",
+		"description": "Create a Go dig configuration file",
+		"body": [
+			"package ${TM_DIRECTORY/.+[\\/]([^\\/]+)$/$1/}",
+			"",
+			"import \"go.uber.org/dig\"",
+			"",
+			"func Add${TM_FILENAME_BASE/(?:^|[_-])(.)/${1:/upcase}/g}(container *dig.Container) {",
+			"\t$0",
+			"}"
+		]
+	},
+	"Go Test Suite": {
+		"prefix": "gotestsuite",
+		"description": "Create a Go test suite file",
+		"body": [
+			"package ${TM_DIRECTORY/.+[\\/]([^\\/]+)$/$1/}_test",
+			"",
+			"import (",
+			"\t\"testing\"",
+			")",
+			"",
+			"type ${TM_FILENAME_BASE/(?:_?test$)|(?:^|[_-])(.)/${1:/upcase}/gi}TestingSuite struct {",
+			"}",
+			"",
+			"func ${TM_FILENAME_BASE/(?:_?test$)|(?:^|[_-])(.)/${1:/upcase}/gi}BeforeEach(t *testing.T) *${TM_FILENAME_BASE/(?:_?test$)|(?:^|[_-])(.)/${1:/upcase}/gi}TestingSuite {",
+			"\treturn &${TM_FILENAME_BASE/(?:_?test$)|(?:^|[_-])(.)/${1:/upcase}/gi}TestingSuite{",
+			"\t}\n}",
+			"",
+			"func Test${TM_FILENAME_BASE/(?:_?test$)|(?:^|[_-])(.)/${1:/upcase}/gi}(t *testing.T) {",
+			"\tt.Parallel()",
+			"}"
+		]
+	}
+}
