@@ -115,7 +115,7 @@
   ],
   "workbench.colorTheme": "GitHub Dark",
   "workbench.preferredHighContrastLightColorTheme": "GitHub Light High Contrast",
-  "workbench.preferredDarkColorTheme": "GitHub Dark",
+  "workbench.preferredDarkColorTheme": "Experimental Dark",
   "workbench.preferredHighContrastColorTheme": "GitHub Dark High Contrast",
   "security.workspace.trust.untrustedFiles": "open",
   "solidity.telemetry": true,
@@ -124,7 +124,6 @@
     "editor.defaultFormatter": "redhat.vscode-xml"
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.activityBar.location": "bottom",
   "workbench.panel.defaultLocation": "right",
   "go.testTimeout": "60s",
   "go.disableConcurrentTests": true,
@@ -269,12 +268,17 @@
   "chat.agent.maxRequests": 100,
   "chat.tools.terminal.autoApprove": {
     "go": true,
-    "gofmt": true
+    "gofmt": true,
+    "npm run lint": true,
+    "npm run build": true
   },
   "chat.editing.confirmEditRequestRemoval": false,
   "window.confirmBeforeClose": "keyboardOnly",
   "accessibility.signals.chatResponseReceived": {
     "sound": "on"
   },
-  "accessibility.voice.speechLanguage": "fr-FR"
+  "accessibility.voice.speechLanguage": "fr-FR",
+  "breadcrumbs.enabled": false,
+  "workbench.panel.showLabels": false,
+  "workbench.activityBar.location": "bottom"
 }

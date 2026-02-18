@@ -4,7 +4,6 @@ christian-kohler.path-intellisense
 dbaeumer.vscode-eslint
 docker.docker
 esbenp.prettier-vscode
-github.copilot
 github.copilot-chat
 github.github-vscode-theme
 golang.go
@@ -26,4 +25,5 @@ redhat.vscode-xml
 simonsiefke.svg-preview
 streetsidesoftware.code-spell-checker
 wraith13.zoombar-vscode
+yoavbls.pretty-ts-errors
 yzhang.markdown-all-in-one
